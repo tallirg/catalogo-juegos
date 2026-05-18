@@ -1,0 +1,157 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+h2{
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    border: 2px solid #00C2FF;
+    background-color: #1E293B;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0 0 12px rgba(0, 194, 255, 0.5);
+}
+
+body{
+    background: linear-gradient(135deg, #0F172A, #1E293B);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.explicacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #020617;
+}
+
+.explicacion div{
+    font-family: 'Exo 2', sans-serif;
+    color: #E2E8F0;
+    font-size: 20px;
+}
+
+.explicacion ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.explicacion a{
+    font-family: 'Exo 2', sans-serif;
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #E2E8F0;
+    background-color: #334155;
+    border-left: 5px solid #22C55E;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.explicacion a:hover{
+    background-color: #22C55E;
+    color: #020617;
+}
+
+/* SECCIONES */
+.seccion{
+    display: none;
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.seccion.activo{
+    display: block;
+}
+
+.opciones li{
+    font-family: 'Exo 2', sans-serif;
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #E2E8F0;
+    background-color: #334155;
+    border-left: 5px solid #22C55E;
+    border-radius: 6px;
+    transition: 0.3s;
+    cursor:pointer;
+}
+
+li{
+    cursor:pointer;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 10px;
+    margin: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+button{
+    background-color: #6CF527;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+     backgroun-color: #27F549
+}
+
+.item-eliminar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.item-eliminar button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.item-editar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.item-editar button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
